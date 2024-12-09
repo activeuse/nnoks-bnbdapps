@@ -14,7 +14,7 @@
 	justify-content: space-between;
 	margin: 2%;
 	position: sticky;
-	height: 30px;
+	height: 90px;
 	top: 0;
 }
 
@@ -77,9 +77,13 @@
 	background-color: darkgoldenrod;
 	color: black;
 	font-family: monospace;
-	border-radius:10px;
+	border-radius:15px;
 	text-align: center;
 
+}
+
+button{
+	border-radius: 20px;
 }
  h6{
 	margin: 20px;
