@@ -20,8 +20,13 @@
 
 .one .one1 h4{
 	color: darkgoldenrod;
+	font-size: 20px;
 }
-
+.one1 h2{
+	font-family: sans-serif;
+	font-style: italic;
+	font-size: 15px;
+}
 .two{
 	display: flex;
 	justify-content: center;
@@ -64,13 +69,16 @@
 .six{
 	align-items: center;
 	margin-top: 30px;
-	margin-left: 300px;
+	text-align: center;
+	/*margin-left: 300px;*/
 }
+
  button a{
 	background-color: darkgoldenrod;
 	color: black;
 	font-family: monospace;
 	border-radius:5px;
+	text-align: center;
 
 }
  h6{
@@ -80,9 +88,55 @@
 	position: absolute;
 }
 
-@media screen and (max-width: 576){
-	.six button a {
-		color: black;
-		align-items: center;
-	}
+footer{
+	margin-top: 15%;
 }
+
+/* Default styles for all devices */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for tablets (min-width: 600px) */
+@media screen and (min-width: 600px) {
+  body {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 60px;
+  }
+}
+
+/* Styles for desktops (min-width: 1024px) */
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* Styles for small screens (max-width: 599px) */
+@media screen and (max-width: 599px) {
+  body {
+    font-size: 14px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+  .one{
+  	display: block;
+  }
+  .one1,.one2,.one3{
+  	padding-bottom: 1em;
+  }
+}
+
