@@ -12,7 +12,7 @@
 .one{
 	display: flex;
 	justify-content: space-between;
-	margin: 20px;
+	margin: 4%;
 	position: sticky;
 	height: 60px;
 	top: 0;
@@ -30,7 +30,7 @@
 .two{
 	display: flex;
 	justify-content: center;
-	margin: 20px;
+	margin: 10%;
 }
 .two h1{
 	font-family: times new roman;
@@ -41,7 +41,7 @@
 .three{
 	display: flex;
 	justify-content: center;
-	margin: 20px;
+	margin: 10%;
 }
 .three h4{
 	font-family: monospace;
@@ -49,7 +49,7 @@
 }
 
 .four{
-	margin: 20px;
+	margin: 10%;
 }
 
 .five ul{
@@ -68,7 +68,7 @@
 
 .six{
 	align-items: center;
-	margin-top: 30px;
+	margin-top: 20%;
 	text-align: center;
 	/*margin-left: 300px;*/
 }
@@ -84,12 +84,12 @@
  h6{
 	margin: 20px;
 	color: darkgoldenrod;
-	font-family: cursive;
+	font-family: sans-serif;
 	position: absolute;
 }
 
 footer{
-	margin-top: 15%;
+	margin-top: 100%;
 }
 
 /* Default styles for all devices */
