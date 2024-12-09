@@ -12,7 +12,7 @@
 .one{
 	display: flex;
 	justify-content: space-between;
-	margin: 4%;
+	margin: 2%;
 	position: sticky;
 	height: 60px;
 	top: 0;
@@ -77,7 +77,7 @@
 	background-color: darkgoldenrod;
 	color: black;
 	font-family: monospace;
-	border-radius:5px;
+	border-radius:10px;
 	text-align: center;
 
 }
